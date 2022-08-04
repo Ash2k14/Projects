@@ -1,0 +1,138 @@
+body{
+    background-image: url("calc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.calci{
+
+    display: flex;
+    box-sizing: border-box;
+    width : 500px;
+    height : 500px;
+    border : 3px solid white;
+    margin : 30px auto;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color:rgb(26, 113, 9);
+
+    
+
+}
+
+.heading{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    font-family: cursive;
+    font-style: italic;
+    font-stretch: expanded;
+    transition: font-size 0.8s;
+    text-shadow: 2px 2px 5px #fff;
+}
+.heading:hover{
+    font-size: 65px;
+}
+.screen{
+    display: flex;
+}
+#scr{
+   
+    margin : 5px 10px;
+    height : 70px;
+    width : 350px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-color:rgba(0, 0, 0, 0.7);
+    color : cornsilk;
+    text-align: center;
+    padding: 5px;
+    font-size: 50px;
+    overflow : hidden;
+    box-shadow: 2px 2px 5px white;
+
+
+}
+
+
+
+.clear{
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin : 10px 10px;
+    border-radius: 20px;
+    transition: width 0.3s;
+    width : 50px;
+    text-align: center;
+    box-shadow: 2px 4px 5px grey;
+
+}
+.numbers{
+    margin : 5px 10px;
+    height : 400px;
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    
+}
+.firstcol,.secondcol,.thirdcol,.fourthcol{
+    height : 300px;
+    margin: 5px 10px;
+    width : 85px;
+    text-align: center;
+    flex-direction: row;
+    border-radius: 10px;
+    
+    
+   
+}
+.fourthrow{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+    width : 450px;
+  
+}
+#equalto,#backspace{
+    width : 200px;
+    border-radius: 20px;
+    transition : font-size 0.3s;
+    box-shadow: 2px 4px 5px grey;
+
+}
+
+.num:hover{
+    background-color: white;
+    color: black;
+    font-size: large;
+    
+}
+.clear:hover{
+    width : 70px;
+}
+.point,.number7,.number4,.number1,.number0,.number00,.number2,.number3,.number5,.number6,.number8,.number9{
+    
+    margin : 10px 10px;
+    border-radius: 20px;
+    transition: font-size 0.3s;
+    background-color : #7ce00a7c;
+    width : 75px;
+    height: auto;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px white;
+
+}
+.op1,.op2,.op3,.op4{
+    
+    border: 2px solid white;
+    margin : 10px 10px;
+    border-radius: 20px;
+    transition: font-size 0.3s;
+    background-color: grey;
+    width : 75px;
+    height: auto;
+    box-shadow: 2px 2px 5px white;
+   
+}
